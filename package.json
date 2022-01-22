@@ -1,0 +1,28 @@
+{
+  "name": "image_upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NAPS-BIT-Mesra/Upload-Image.git"
+  },
+  "author": "Pawan and Ruturaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAPS-BIT-Mesra/Upload-Image/issues"
+  },
+  "homepage": "https://github.com/NAPS-BIT-Mesra/Upload-Image#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "sharp": "^0.29.3"
+  }
+}
